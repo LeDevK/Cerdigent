@@ -36,3 +36,4 @@ This query identifies `RegistryKeyCreated` events matching the two impacted cert
 - Microsoft Defender XDR Advanced Hunting schema: `DeviceRegistryEvents`
 - Alert name: Trojan:Win32/Cerdigent.A!dha
 - Impacted update date: 2026-05-03
+- Triggering TI update: 1.449.424.0 (released 2026-05-03) https://www.microsoft.com/en-us/wdsi/definitions/antimalware-definition-release-notes?requestVersion=1.449.424.0
