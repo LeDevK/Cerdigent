@@ -17,7 +17,7 @@ This query identifies `RegistryKeyCreated` events matching the two impacted cert
 
 ## Usage
 
-- Run in Microsoft Sentinel (Log Analytics) or Defender XDR Advanced Hunting
+- Run in Defender XDR Advanced Hunting
 - The `Timestamp` filter (`> 2026-05-03T04:00:00`) isolates events post-TI-update — adjust if the rollout time differs in your tenant
 - Cross-reference `InitiatingProcessFileName` to confirm legitimacy of the creating process
 
