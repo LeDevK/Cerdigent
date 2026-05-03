@@ -1,0 +1,7 @@
+DeviceRegistryEvents
+| where RegistryKey contains "0563B8630D62D75ABBC8AB1E4BDFB5A899B24D43"
+or RegistryKey contains "DDFB16CD4931C973A2037D3FC83A4D7D775D05E4"
+| where ActionType == "RegistryKeyCreated"
+| where Timestamp > datetime(2026-05-03T04:00:00)
+| project Timestamp, DeviceName, ActionType, InitiatingProcessFileName
+| order by Timestamp desc
