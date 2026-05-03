@@ -1,4 +1,4 @@
-# Cerdigent — False positive certificate detection (Defender TI)
+# Cerdigent — False positive certificate detection (Microsoft Defender TI)
 
 ## Context
 
